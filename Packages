@@ -1,0 +1,17 @@
+Package: jp.akusio.milkyway4
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 3464
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: ./debs/jp.akusio.milkyway4_0.1.1_iphoneos-arm64.deb
+Size: 1313898
+MD5sum: 4a30fc9b4d66260be1fc532d40066a0b
+SHA1: 9ce6a80d1bbb87ffb13c1cc56bbc7a80c795e615
+SHA256: 2e9fa59ded0856ca107f58249f1f626fda12e0743fbb4a04d05fcb3aef69f825
+Section: Tweaks
+Description: multitasking for iOS15 rootless.
+Author: @akusio_RR
+Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
+Name: MilkyWay4-rootless
+
