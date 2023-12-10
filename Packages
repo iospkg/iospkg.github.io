@@ -1,17 +1,17 @@
-Package: jp.akusio.milkyway4
-Version: 0.1.1
+Package: org.coolstar.sileo
+Version: 2.5
 Architecture: iphoneos-arm64
-Maintainer: @akusio_RR
-Installed-Size: 3464
-Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
-Filename: ./debs/jp.akusio.milkyway4_0.1.1_iphoneos-arm64.deb
-Size: 1313898
-MD5sum: 4a30fc9b4d66260be1fc532d40066a0b
-SHA1: 9ce6a80d1bbb87ffb13c1cc56bbc7a80c795e615
-SHA256: 2e9fa59ded0856ca107f58249f1f626fda12e0743fbb4a04d05fcb3aef69f825
-Section: Tweaks
-Description: multitasking for iOS15 rootless.
-Author: @akusio_RR
-Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
-Name: MilkyWay4-rootless
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./debs/org.coolstar.sileo_2.5_iphoneos-arm64.deb
+Size: 2894788
+MD5sum: b774f1ae1f7081b32535dae6d235d2bc
+SHA1: 1f044b46fb27cde10403b84122e8820e8f95a718
+SHA256: 1b8fc661726bcd39b487caffc7a5661bb112ff9fad9de549bc8b97de93a3b0d4
+Section: Packaging
+Description: A modern APT package manager frontend
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+Name: Sileo
+Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
