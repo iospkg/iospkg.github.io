@@ -1,0 +1,37 @@
+{
+    "bundle_id": "com.nwhit.springfinity",
+    "name": "Springfinity",
+    "version": "1.1.9",
+    "tagline": "Infinite scrolling on your homescreen. A remake of Infiniboard for iOS 11-12",
+    "homepage": "https:nathanwhit.github.io/repo",
+    "developer": {
+        "name": "Nathan Whitaker",
+        "email": "nathan.whitaker01@gmail.com"
+    },
+    "section": "Tweaks",
+    "pre_dependencies": "",
+    "dependencies": "preferenceloader",
+    "conflicts": "",
+    "replaces": "",
+    "provides": "",
+    "works_min": "11.0",
+    "works_max": "12.1.2",
+    "featured": "true",
+    "source": "https://github.com/nathanwhit/Springfinity",
+    "changelog": [
+        {
+            "version": "1.1.9",
+            "changes": "Fix icons being cutoff after rotating the homescreen",
+            "version": "1.1.8",
+            "changes": "Fix a bug that caused the bottom rows of the scrollview to be cutoff on some devices",
+            "version": "1.1.7",
+            "changes": "Attempt to fix a crash",
+            "version": "1.1.6",
+            "changes": "Make it so there is no half-row of icons at the bottom of the screen when using the option Hide Behind Dock + Page Control",
+            "version": "1.1.5",
+            "changes": "Fix compatibility issues with Cylinder (fully fixed) and ClassicFolders2 (functionality fixed, but visual bugs remain), improve how autorotation and dock hiding is handled",
+            "version": "1.1",
+            "changes": "Fix vertical paging option not taking effect immediately"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "bundle_id": "com.nwhit.hulugesturedisabler",
+    "name": "HuluGestureDisabler",
+    "version": "1.0.0",
+    "tagline": "Disables swipe to dismiss and double tap to skip gestures in the Hulu app",
+    "homepage": "https:nathanwhit.github.io/repo",
+    "developer": {
+        "name": "Nathan Whitaker",
+        "email": "nathan.whitaker01@gmail.com"
+    },
+    "social": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/NathanWDev"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/nathanwhit"
+        },
+        {
+            "name": "Reddit",
+            "url": "https://reddit.com/u/ibeforeyou"
+        }
+    ],
+    "section": "Tweaks",
+    "pre_dependencies": "",
+    "dependencies": "",
+    "conflicts": "",
+    "replaces": "",
+    "provides": "",
+    "works_min": "11.0",
+    "works_max": "12.1.2",
+    "featured": "false",
+    "source": "https://github.com/nathanwhit/HuluGestureDisabler",
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "changes": "Initial release"
+        }
+    ]
+}
