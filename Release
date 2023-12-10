@@ -1,9 +1,37 @@
-Label: iospkg repo
-Origin: iospkg repo
+Architectures: iphoneos-arm
+Codename: iOS
+Components: main
+Date: Sun, 10 Dec 2023 13:20:13 +0000
+Description: PiniponSelvagem's iOS tweaks repository
+Label: test
+Origin: test
 Suite: stable
 Version: 1.0
-Codename: Iospkg-repo
-Architectures: iphoneos-arm iphoneos-arm64
-Components: main
-Description: iospkg repo.
-Date: Thu, 08 Jun 2023 19:10:51 +0000
+MD5Sum:
+ ae5419ee01facb7fbfb33bc88da117ef              843 Packages
+ af6d6dee6fb4998338aba871809bcb48              613 Packages.bz2
+ e3dccf0da5a9a819104af5c932f73f88              563 Packages.gz
+ 4a54e8c8138364cf8a4d4f9ed310b964              636 Packages.xz
+ 1f5286a0293aec8f7c0898cea26437d1              563 Packages.zst
+ 356ce67dbdf2c7e8a33ccd6144c40efd              202 Release
+SHA1:
+ a2baae3abe541e7c5c294fde2495e892f297b25a              843 Packages
+ 124276341e66a88599d1ac643925abeef8ebbef2              613 Packages.bz2
+ 2faea8b7326aaacfd765d0446ed870d43314836b              563 Packages.gz
+ 9c0ce72df988e4d08fb505dd69f87118623ff9fd              636 Packages.xz
+ 6a09b99119cd50f0fc3b3a18d4d3f7e27cc2ab38              563 Packages.zst
+ 9b3245c9f953f8c222b57050bf711d901f0bbdfb              202 Release
+SHA256:
+ 410feb4ffe84c3785eb76f5ef7ed108be3d55cdc6ea22b322338f2d5914c053c              843 Packages
+ a350d5cd6e4ab0d7207eac6981ddd3719adedde5bf797ffcfc0a9b822e4d8034              613 Packages.bz2
+ 8ba07559bf61938deabe3d93b9a0a204d94ddeec29096606ae4909bc30ab9a14              563 Packages.gz
+ 958a2c2076968727bf88c3e76aa691052c3363d092145347907e3321014a844f              636 Packages.xz
+ a6a64af71efe0a7b167cbf4266996180d6237a25c3589e026202020c3671042c              563 Packages.zst
+ 45a5b020dca0c69a1750a8268c72c102592f28fdec353817f3a21d6a4627dd40              202 Release
+SHA512:
+ b3c1aa0bff8a954d5110c88fc5ad0e81371c3014d668ea0fdbc1f2a14b02794f6f1b11fcae8bdfe10a7bffc78b66e0157fe25dd73962eee70546182d38fa2b14              843 Packages
+ 75aea7b56d3ac4876ed59cbfb9720d3b4c64bc4eb6798a96dedd23b3c40f8daebbfef12affba66dccc424d90b0fb7143c55ef1f499c29b9bdd7fdb8329d9550b              613 Packages.bz2
+ a95b3f0fbcc4ff58cea0f06d781e65ed999986736b18e3a598894fc52b534d535d60961aac9a6f10bd47fd9eca2f0b0f949eb90c520b1a268aa7c9ea1ac8c269              563 Packages.gz
+ 03ead68d85de44f127f6a6a1f2a3f67e60c012c22aa9dd13f771ef11be59f5d8b4f2dc56aa394cd6d9e6ee10107d7dadc18e094e6ef4e02d818dea67f2bd438a              636 Packages.xz
+ 771cba40779a570619304a60de3ab5c7cd51133010f99640b978c00af4b1029e8b60082c688703438ac08048885fbca693bcfe58cf329bbfcbbe8b826f234989              563 Packages.zst
+ b13c05c600927ccfb9c71a05739bfd0e0a36536d92f5976a8afcc652be5709ea9360a9f32c72878c8d0469f91e650a515f3bad5ad0b366d0ca4a69d985cd7b1b              202 Release
