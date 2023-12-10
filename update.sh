@@ -1,8 +1,11 @@
 #!/bin/bash
 
-dpkg-scanpackages -m ./debs > Packages
+chmod +x ./apt-ftparchive
+rm Packages*
+./apt-ftparchive packages ./debs > Packages
+# dpkg-scanpackages -m ./debs > Packages
+gzip -c9 Packages > Packages.gz
 xz -c9 Packages > Packages.xz
+zstd -c19 Packages > Packages.zst
 bzip2 -c9 Packages > Packages.bz2
-gzip -c Packages > Packages.gz
-zstd -q -c19 Packages > Packages.zst
 
