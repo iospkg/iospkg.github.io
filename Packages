@@ -1,694 +1,595 @@
-Package: com.brend0n.nolowpowermode30secautolock
-Architecture: iphoneos-arm64
-Version: 0.0.1
-Section: Tweaks
-Maintainer: Brend0n <brendonjkding@126.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debians/com.brend0n.nolowpowermode30secautolock_0.0.1_iphoneos-arm64.deb
-Size: 4026
-MD5sum: 763b4eff57add614e8c4d4cecc373d08
-SHA1: 6dbbcf12a34c8c8c5462c718b51691a91e83afde
-SHA256: 6826a993d198b9e7c58904a2665d3c92ecd0e82e4df9c62bb619d1b841f9ab56
-SHA512: dc37bf65efbc24ea0dfe87d2f483df4e3bbc0487bf43b3765c26e30fab57e7c0ec98d5152c6779fdc9fc1993a4f3c1550c1cfb99047c88311f31ed1481f2adc8
-Description: Natively allow you to adjust Auto-Lock interval in Low Power Mode. 在低电量模式下也可以调整自动锁屏时间！
-Name: NoLowPowerMode30SecAutoLock
-Author: Brend0n <brendonjkding@126.com>
-
-Package: com.brend0n.nopassafterrespringsafe
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Section: Tweaks
-Maintainer: Brend0n <brendonjkding@126.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debians/com.brend0n.nopassafterrespringsafe_0.0.2_iphoneos-arm64.deb
-Size: 2976
-MD5sum: 3ee0a5f0fee875338405825673ec82d5
-SHA1: 4c6b4edd4e53e638e8927c56a225cb6863ed8bb5
-SHA256: eeb01d1bca90dfc7b631d91c960529d571b2c855779d1d435cecd61c3ee75d28
-SHA512: e1046e2de209705d80dda449f6d57c0533aa38a83a32045e5174f20f5290d93b4d9558917fdde01f111647b7d2bccf5e9bf7eb6f37bdeed7f9302b8451c9cb50
-Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
-Name: NoPassAfterRespring (Safe)
-Author: Brend0n <brendonjkding@126.com>
-
-Package: com.dimitarnestorov.searchautofocus
-Architecture: iphoneos-arm64
-Version: 1.0.2
-Section: Tweaks
-Maintainer: Dimitar Nestorov
-Installed-Size: 476
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 11.0)
-Filename: ./debians/com.dimitarnestorov.searchautofocus_1.0.2_iphoneos-arm64.deb
-Size: 104444
-MD5sum: 93c0824a4e4f92eec647b9689e76d29c
-SHA1: 0992e571093cd25ff38842e29fb6ff040bf3544b
-SHA256: b5ef41501ceec91994210c16e0915b2a47d150c53ac7e89dab646018b5c4f781
-SHA512: 37f82941d2453dcc809abf5067c9f9129639e336e94d059d2b0c267833208478455d8aa9a1c8211dfdcbe3fe886a0b05b74cd801a614e0130274deba7291657c
-Description: Automatically focus search inputs
-Name: SearchAutoFocus
-Author: Dimitar Nestorov
-Icon: file:///var/jb/Library/PreferenceBundles/SearchAutoFocusPreferences.bundle/Icon@512h.png
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.dimitarnestorov.searchautofocus/depiction.json
-
-Package: com.fiore.calculatorhistory
-Architecture: iphoneos-arm64
-Version: 1.1.3
-Section: Tweaks
-Maintainer: Donato Fiore & lclrc
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: ./debians/com.fiore.calculatorhistory_1.1.3_iphoneos-arm64.deb
-Size: 16602
-MD5sum: 3993181ac1e93bf785d395984b256a5e
-SHA1: 09bda6abfa46c272f38314db5de2329ccfc90666
-SHA256: 87e2ccfa0b41e178c184dad00b7a5d6bdba09f77f642ff5b980d7a564d7eb5e5
-SHA512: 1c68bbfd5127af84a0f1909b18b196fab4bbddbfd9fd47515fff58dbaa0043cee8431b949ced2e6c2395db3be7f675c00564ba20ab2ee8e4ba5272c0bde913e8
-Description: 让自带计算器可以查看历史计算过程和结果。v1.1.3: 增加支持多步运算，修复重复运算符错误。
-Name: 计算器添加历史按钮
-Author: Donato Fiore
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.fiore.calculatorhistory/depiction.json
-
-Package: com.hoangdus.lowpowersleep
-Architecture: iphoneos-arm64
-Version: 0.0.1-1
-Section: Tweaks
-Maintainer: Hoangdus
-Installed-Size: 200
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: ./debians/com.hoangdus.lowpowersleep_0.0.1-1_iphoneos-arm64.deb
-Size: 17566
-MD5sum: 3850d5c265f169c33d8ca6337f179cdb
-SHA1: b2b9ba395461498704e3684f8bf94d8553b90a82
-SHA256: efb184dfe25f53c081f45d631d48ba29dbf9441ba16d42791315a65d4e1889f2
-SHA512: 2f348dce9d9f104e33bc0780db1b45948e21b1fdfc2607c86fc0e93ddf68b780226d626c7f8f4e5024b01971542cbf3067911fc0437fe9b8028124cee13fbb2c
-Description: 锁屏时自动打开低电量模式. 0.0.1-1: 设置图标改成合适大小..
-Name: LowPowerSleep 锁屏自动低电量
-Author: Hoangdus
-
-Package: com.hoangdus.lowpowersleep
-Architecture: iphoneos-arm64
-Version: 0.0.1
-Section: Tweaks
-Maintainer: Hoangdus
-Installed-Size: 208
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: ./debians/com.hoangdus.lowpowersleep_0.0.1_iphoneos-arm64.deb
-Size: 23054
-MD5sum: 5a441627888c90248507880b79619d07
-SHA1: 084dbf595eed5ef33dc110f2818dcf7649aa3d25
-SHA256: 0acb801878ffa7cb928225ae77c5299d595bdd78ba3c5a0b8098f936932ed696
-SHA512: 7d984e214a6b026a1061fb8dac4580c223572d19e3598b65fbd9d7bf8974cc52b18f0ace7f27d746a661b88e147c64e293a2dadedde081b765e26a5f8dc7659e
-Description: 锁屏时自动打开低电量模式
-Name: 锁屏自动低电量
-Author: Hoangdus
-
-Package: com.johnzaro.networkspeed13
-Architecture: iphoneos-arm64
-Version: 3.0.4-1
-Section: Tweaks
-Maintainer: Johnzaro
-Installed-Size: 880
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.opa334.altlist, firmware (>= 12)
-Filename: ./debians/com.johnzaro.networkspeed13_3.0.4-1_iphoneos-arm64.deb
-Size: 481426
-MD5sum: c819592d6793dd259c80052837c06f88
-SHA1: 5c9bdff6caa125e6af5527edeee214b4c51789ed
-SHA256: 21867af710a04b9ff6568b8dbe34b040be2e0c5fc159fe3b6d28a9e45db39c46
-SHA512: 12a8df2a8935354d0a6ff337be16f85615515c6893ed50e097c75e23e1a7b32b3240e4a3b75ff88a2ee72ad15e5865bbeff9e12c11a27f692f888f4e15edb6c2
-Description: 编译自用，去掉Cephei依赖，替换sparkcolor和sparklist依赖。3.0.1-1更新：添加注销按钮；3.0.1-2更新：修改设置后即时生效(详情看插件设置内说明); 3.0.1-3: 添加单击开关VPN选项；3.0.1-4: 添加左滑右滑截图；3.0.1-5:修复重置设置无效；3.0.1-6: 修复颜色设置(哇神坑，libcolorpicker搞成这样我理解不能); 3.0.1-7: 左右滑添加自定义动作; 3.0.2: real即时生效; 3.0.3: 完善自适应颜色
-Name: 悬浮网速 NetworkSpeed
-Author: Johnzaro
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.johnzaro.networkspeed13/depiction.json
-
-Package: com.johnzaro.networkspeed13
-Architecture: iphoneos-arm64
-Version: 3.0.6
-Section: Tweaks
-Maintainer: Johnzaro
-Installed-Size: 880
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12)
-Filename: ./debians/com.johnzaro.networkspeed13_3.0.6_iphoneos-arm64.deb
-Size: 481920
-MD5sum: cb00857ee746b888a5d44492f5200614
-SHA1: dafb4284d9b939a89fb9673416d7860c0262dc4a
-SHA256: 60bfe699ceaac1a8e6285a6a693037797c657fa745848fd06b327f0808a12c38
-SHA512: 9c11e9bb70cb1a4c6d5cc55ed0e1ec0e7b52d4c651643a0e666b9ec7d0c7af27340059bcfd4e9c0a6781123a9d1a71e1dae8446236ddfffd06a2217c3c581dfe
-Description: 编译自用，去掉Cephei依赖，替换sparkcolor和sparklist依赖。3.0.1-1更新：添加注销按钮；3.0.1-2更新：修改设置后即时生效(详情看插件设置内说明); 3.0.1-3: 添加单击开关VPN选项；3.0.1-4: 添加左滑右滑截图；3.0.1-5:修复重置设置无效；3.0.1-6: 修复颜色设置(哇神坑，libcolorpicker搞成这样我理解不能); 3.0.1-7: 左右滑添加自定义动作; 3.0.2: real即时生效; 3.0.3: 完善自适应颜色
-Name: 悬浮网速 NetworkSpeed
-Author: Johnzaro
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.johnzaro.networkspeed13/depiction.json
-
-Package: com.johnzaro.networkspeed13
-Architecture: iphoneos-arm64
-Version: 3.0.7
-Section: Tweaks
-Maintainer: Johnzaro & lclrc
-Installed-Size: 880
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12)
-Filename: ./debians/com.johnzaro.networkspeed13_3.0.7_iphoneos-arm64.deb
-Size: 482280
-MD5sum: a488ae1e7ed52123cf06cd76a3be0489
-SHA1: 65eb9983c7030705b85ac84cd0dd4e5012633fe0
-SHA256: deac80b63d3452c81f7d961664c4bc8f2e0474a92254447118e8d1aefbfdc4bf
-SHA512: 99191bc08bf333d4fb7936cced8389a381d7ca62b579d0fa74c9700109cf8d53b98db0e28421ea5c624b6fcd4632efd882cfe288c2384db94654fa748e92bf64
-Description: 编译自用，去掉Cephei依赖，替换sparkcolor和sparklist依赖。3.0.1-1更新：添加注销按钮；3.0.1-2更新：修改设置后即时生效(详情看插件设置内说明); 3.0.1-3: 添加单击开关VPN选项；3.0.1-4: 添加左滑右滑截图；3.0.1-5:修复重置设置无效；3.0.1-6: 修复颜色设置(哇神坑，libcolorpicker搞成这样我理解不能)
-Name: 悬浮网速 NetworkSpeed
-Author: Johnzaro & lclrc
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.johnzaro.networkspeed13/depiction.json
-
-Package: com.johnzaro.networkspeed13
-Architecture: iphoneos-arm64
-Version: 3.0.8
-Section: Tweaks
-Maintainer: Johnzaro & lclrc
-Installed-Size: 880
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12)
-Filename: ./debians/com.johnzaro.networkspeed13_3.0.8_iphoneos-arm64.deb
-Size: 482924
-MD5sum: 5bf3739feff480d0464379f3ae6bc622
-SHA1: 17a8a98fcfa8383a1d9f444cd868964f3a837208
-SHA256: 927b4f6ad983b9621d447d8eb3a0c3501610f84ad7b76895bdc1173aec853b50
-SHA512: fc3207e23441878fba67513c90b2289d9d6e418381c03b770f8a26cba0e1e740599f953b0adb68232b0edbdc6f42e87d221a216980f3288a4aa796c9e9ec27bf
-Description: 编译自用，去掉Cephei依赖，替换sparkcolor和sparklist依赖。3.0.1-1更新：添加注销按钮；3.0.1-2更新：修改设置后即时生效(详情看插件设置内说明); 3.0.1-3: 添加单击开关VPN选项；3.0.1-4: 添加左滑右滑截图；3.0.1-5:修复重置设置无效；3.0.1-6: 修复颜色设置(哇神坑，libcolorpicker搞成这样我理解不能)
-Name: 悬浮网速 NetworkSpeed
-Author: Johnzaro & lclrc
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.johnzaro.networkspeed13/depiction.json
-
-Package: com.johnzaro.networkspeed13
-Architecture: iphoneos-arm64
-Version: 3.0.9
-Section: Tweaks
-Maintainer: Johnzaro & lclrc
-Installed-Size: 880
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12)
-Filename: ./debians/com.johnzaro.networkspeed13_3.0.9_iphoneos-arm64.deb
-Size: 482902
-MD5sum: 0bcd7de6e49ab04b85acf74c8df23b26
-SHA1: a0fe07b4d3586f0a5fd4670e0f08991e6c3c5bb1
-SHA256: 1ee3d6266edfc5d573158a06729d75298e63a965637bea116d9d8a93218b547d
-SHA512: f2129a6776b61b09f3a650b99c7b40aadf26cbc96fc624da3e695cef6393a732d7b956014fa9e060a6931edcf1e0ffd22b0fd971dcb0277d8dedd49ed2cdc716
-Description: ...
-Name: 悬浮网速 NetworkSpeed
-Author: Johnzaro & lclrc
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.johnzaro.networkspeed13/depiction.json
-
-Package: com.johnzaro.networkspeed13
-Architecture: iphoneos-arm64
-Version: 3.1.1
-Section: Tweaks
-Maintainer: Johnzaro & lclrc
-Installed-Size: 884
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 12)
-Filename: ./debians/com.johnzaro.networkspeed13_3.1.1_iphoneos-arm64.deb
-Size: 482856
-MD5sum: 2e108b05ab490a1a7ec267ec3dd0b5dc
-SHA1: 2c166a26411bbbf26f4749efd793a9c472f883b7
-SHA256: 8ad8a0ca26baffddc796cad2b3f7602a484891ff84df3b9e3dc03f967cacba52
-SHA512: 7e2ee2b15c9fa96abad2e977507ba25ee5e6be22ffd9be3bc9d53659b3d5dec416df509b9eeea559caba68031cc254d3dad277dc90de67de4ca5496c7aa019d5
-Description: ...
-Name: 悬浮网速 NetworkSpeed
-Author: Johnzaro & lclrc
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.johnzaro.networkspeed13/depiction.json
-
-Package: com.lclrc.cccalc
-Architecture: iphoneos-arm64
-Version: 2.1.0
-Maintainer: gilesgc & paisseon & lclrc
-Installed-Size: 348
-Depends: mobilesubstrate
-Filename: ./debians/com.lclrc.cccalc_2.1.0_iphoneos-arm64.deb
-Size: 72872
-MD5sum: aaa758b27345284c2149107e1311c07e
-SHA1: 13ea508f2feb5581ddb25a99025378453a7e9a2f
-SHA256: 46eb19098e36ec662b43b5b0a1d5113c85e5e8f432edfb537a1d471406c3c192
-SHA512: d9d05bb2fb6d723a33f32ff97c857f48640c2ffc0fa37d5c9404096f150a12f6fb80c168023ec0c5f9e7acf9233259a7a4e7dee48ad292d3ffbb723377735995
-Description: 把控制中心的计算器变成真正的计算器，而不仅仅是复制上一个计算结果。
-Name: CCCalc
-Author: gilesgc & paisseon & lclrc
-Icon: https://gilesgc.github.io/repo/depictions/com.gilesgc.cccalc/cccalc-icon.png
-
-Package: com.lclrc.controltab
+Package: libzstd1
 Architecture: iphoneos-arm
-Version: 1.0
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/com.lclrc.controltab_1.0_iphoneos-arm.deb
-Size: 6046
-MD5sum: 717c41d08cd89c0e7a5ab7a424cb9313
-SHA1: 8702dcd6f0a69cbd77fa49f2be12717152096f04
-SHA256: 04f444d4fd1a3bb639187006cc45fc7a361c6eeac102eeeb534671dd5c45e730
-SHA512: 47714fefc6b240103caefb810ac8edf018e304124bd50cc06408c0e4b8e442adf8856e501bb598853e8c5e28cf2e57ec97a6a789865c311e2a2cf9f7ec47a39e
-Description: tweak for Safari
-Name: ControlTab - 控制Safari标签页
-Author: SquidForce
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+Version: 1.5.0
+Section: Libraries
+Maintainer: Aarnav Tale <aarnav@tale.me>
+Installed-Size: 1192
+Depends: lz4, lzma
+Filename: ./pool/libzstd1_1.5.0_iphoneos-arm.deb
+Size: 304812
+MD5sum: 341308b19358c4daa93f60a7ff2ba5a1
+SHA1: 77c2b36fb189361ccebbeb3207c98dfe14bf8cc1
+SHA256: 8bddfd21ec9e5ce343c3b39281b2b9281a84c8a48f95eb50659d627fdc37fa0a
+SHA512: e0350f38f6120ee34bf570660eabe2aaa84fdbd87b9611213d4f93149c495bd17dee8c852be097ee509ce8d4f7bf50b6b45bf58672f93cfae3cd493c376517ae
+Description: fast lossless compression algorithm
+ Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
+ real-time compression scenarios at zlib-level compression ratio.
+ .
+ This package contains the shared library.
 
-Package: com.lclrc.controltab
+Package: lz4
+Architecture: iphoneos-arm
+Version: 1.7.5-1
+Multi-Arch: foreign
+Section: Archiving
+Maintainer: Amy While <me@anamy.gay>
+Installed-Size: 1032
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./pool/lz4_1.7.5-1_iphoneos-arm.deb
+Size: 81660
+MD5sum: d740f1157ab8ead985f3565620c746eb
+SHA1: d35fc9b50f9bce05ad3e0225976f1fe1060c5420
+SHA256: 46fe855b143a758b6c7d9c78a8db9911ef6b079cd5ebd1c527f44dd1ba76720a
+SHA512: bad864fa54e122909962d15ff9b1e1b83423c2e43d1142f62d59ef82bb432e7c207c52c4d52ff7d64d6af4a063f807cc16a93f28d61480eccc211acfb636bb92
+Homepage: http://tukaani.org/lzma/
+Description: Extremely Fast Compression algorithm
+Name: LZ4
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.1_iphoneos-arm.deb
+Size: 2198572
+MD5sum: 233bf16cf4ac47351c946c29cfa78230
+SHA1: 379b9b2d806e79638be6db315172a3a57c4cb016
+SHA256: 02d61d4dbd645f881774e3e30cbcf89e06d384025d15c3f599290008b2e4ae94
+SHA512: 3f8156b115c266561aba6caca87eade803fb74d26946e6ec4a37c8bd40739a2d957cba3144b8f681d36301b463ae3d8a6fe3d93f9cd105c780935e5bde9ee8aa
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.2
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.2_iphoneos-arm.deb
+Size: 2198724
+MD5sum: e7b6c93a18820f4efe880d758ed56e13
+SHA1: 1eb14dddb9aab6d4a3497c6ac294918789230abb
+SHA256: aced42ef80bff295f7e227ec76e322d5a2083ded0c2d7400ce8393ec3d7932dc
+SHA512: 44cef69e0b54c177535c08f9212ec2ed40e114aed837615e5ef35d316552d42ac222a1d1b1fddc6ffda24f23a4baaf55aa24f8a9986aad5772410401a5e45b92
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.3
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
+Size: 2199780
+MD5sum: 70a60e134dd1ca6e69913131e89c03df
+SHA1: ff18b87bb21da28929880504819e7737697c1129
+SHA256: e2daff014a72766d51391a1bf1185406163fa500bad149c68504708aab14c43a
+SHA512: cf5044a02420c66d4105c0548218bc3667dbe6a25ed70d1798bf52e27a63e35eb67b5d1fec9b9b698191a16b460e0f49c5bf4255ab4222bea6832b06f8f907b7
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.4-1
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.4-1_iphoneos-arm.deb
+Size: 2008584
+MD5sum: fa993ceea75b6891f5d02c73536e88e1
+SHA1: 3e3d5e29aab285f19c59dcdac2d500558918dd7b
+SHA256: cf8c9eadb737b9b2614fa1c85db1fb837d2a877966265ad9bfaee3dcdfd4efa1
+SHA512: 0a52cf57584e2dab1553d183e17d91d714baa1b2a609d659f7a234093c4b1c0691c56a1f167202abd23d1cec5d93e2d832374550940d66961c454c7e7584482a
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.4
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.4_iphoneos-arm.deb
+Size: 2004692
+MD5sum: 0d3b86d1cacfa582878d3a95e5d0e853
+SHA1: 78b1f61c42b9afc705e81c5444f6fd4aaa9a520f
+SHA256: ca9c4a6f3c21921f34e135191b85c6564a7822728257dbe583eb745ffdc33ab9
+SHA512: 9b3b2ad321de2fc509aec36cccbff01bc149b81a79037557b0f9fa19a5f26334b0ba8e0a6900103b378fa55c3888d94a7910802a53d93407d499df5b9a5d55cd
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.5
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.5_iphoneos-arm.deb
+Size: 2013728
+MD5sum: 67fa3dce5d612a619ad945f47be737d3
+SHA1: e36ad1a374effadb081cb0e62aacb616b420e6fd
+SHA256: ccc9be922855c4b4fae085d7652391a99061f9c9ba34940b88f5d9c0df1a8971
+SHA512: 0f41a7414ceb80c16579b1cc30597855a23caf29b9fe1b785404a9bb4ffb33e13f5ba31f78a9b64497c3ba6608010fe2ece10bc3fda593024b287bf8cde57a2e
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2.6
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2.6_iphoneos-arm.deb
+Size: 2006476
+MD5sum: 9c6d562f5d3c097ce5450fad85cf9574
+SHA1: de402f69af4bbd255c4ee4a87a1d16188cfbe193
+SHA256: 21facaf703f83b930391040edbe327f3c0d8730b31c3962d974aefee421c8e0d
+SHA512: df5f602f772fcccf0789de0adafcd90142337e3a3e6d0c5802a485ebda1cd231e984232c9d18c88176ef712eb385095a790e038bd62052e484594ccf79b7a61a
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.2
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.2_iphoneos-arm.deb
+Size: 2195316
+MD5sum: db5beedd68803f2a481d073cb5bcb2fb
+SHA1: b13dde5dcb1e86e7c7d902f71ae3eae1c8b500b1
+SHA256: 72a24447ebc808720563e7a487f1e1fb2e78eadf93f3e0b9bb33f7c43f26b909
+SHA512: 5bcb7030883c22897b25e2695af4dd13de789c2d7369feb4a89f870c231c9f5abc05f5a4f3d2d02a6536718e11f2432a23bc4c22700aaaa00524fa41120f5036
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.3
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.3_iphoneos-arm.deb
+Size: 1997556
+MD5sum: 8ec089704f0bd944d914ff044fef91a4
+SHA1: c3fc6093b43b37d41fd95bcfc7cb7852fc544870
+SHA256: d7cec451c30724bf92aec88ff217aa83a310ee87eab3fca438fce688a6d179ee
+SHA512: cedcd583b51118fd13107eb6dfc1bcfe7c1bbf5aee9a5364e38b439d7f60a34e9c016b048e912801f6edccfb1c15f531f06cc864185860fa9c3f2d3e74ddc0ff
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.4.1
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.1_iphoneos-arm.deb
+Size: 2661424
+MD5sum: 6fd538e913a6273698ba87e044e401b1
+SHA1: 45851467d34fe9da5674c8cd2ac0d99163cef1fb
+SHA256: a7f821442438200e62775a4f8a2f37415e5772fa570944104aa62e10f2f7c003
+SHA512: 3eb052c4a1cf56761da42d5a09a3453788ed4e83ccc000718ca25cc16a32321f4a1a896a96c4766a8308c87d69339bd1c0d4c4f51d4de2240095e53f5d5acb5e
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
-Version: 1.0
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.chr1s.newtab
-Filename: ./debians/com.lclrc.controltab_1.0_iphoneos-arm64.deb
-Size: 6112
-MD5sum: 99fdb6bf17f0be5fb441b6f76c9e77a5
-SHA1: deafe2721eb678d28bfe0074980a55e369a1ab31
-SHA256: 5fafffcff06e2fd5623738c4312556178318afcb89b13aa9cf4ef78c42bc91a6
-SHA512: f20c696700ddca7e7de4ab877608239db27bfeeff2b281536785c3e8266c3e4c341b344085cac99276d8c7e91b299feeed299aa2ccbfd767c9f87e212fbd8348
-Description: tweak for Safari
-Name: ControlTab - 控制Safari标签页
-Author: SquidForce
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+Version: 2.4.1
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.1_iphoneos-arm64.deb
+Size: 2663928
+MD5sum: e0b8fa9d86d8a9c168e794fae0b276f7
+SHA1: 9a83dd2998e6eb90fdf48f99b4f5f4b1b0687bf5
+SHA256: 784297f9f782f5f7310b4f669c60fa9d606733b53875d719fb1a416e8a4d2dba
+SHA512: dd48fa28feac9c7f1f3aa6868a064183c3656a2dd0d79b2312660b6d6b66f697419b0694274a1ba2c1368c7be981433227d4b6aa8be9a72b0d478628552d5711
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.controltab
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/com.lclrc.controltab_1.0_iphoneos-arm64e.deb
-Size: 6184
-MD5sum: 7634b64594ddc2afc4d951714cdde712
-SHA1: b820ff91ea0857bb8306cd9162511479a6cd281e
-SHA256: c8ae4260f0ef0e682b8189351c14026bbec31444ffafe6a34e0e29491faa939c
-SHA512: 1baceb0cfb2c39ad4cc53eb19c42c1c206ade333d9679ab0506d6e7a7201ff7adf5b14b98ea9f848814c195c02bee670359e99a864d33e99b5715a425951c46a
-Description: tweak for Safari
-Name: ControlTab - 控制Safari标签页
-Author: SquidForce
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.4.2
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.2_iphoneos-arm.deb
+Size: 2660996
+MD5sum: 0543e9dfc2198c1161a7da57807d430f
+SHA1: 2f044373d714be8143cf5bdc9eee0bb18248526b
+SHA256: ceb4107683b09c4eca20603b88b4e441e574cb21bb6611db24cbb78177322435
+SHA512: 4570c5b2a74ba5284ff7216ae59bc4347fe98429d58cc08caaf6d8d58f3b733898258a56e754ca62c5b037af6ceff639b860faa1cfa6d29b6d9a2e1745ac4c2b
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.exacttime
+Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
-Version: 2.0.3
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 1116
-Depends: mobilesubstrate
-Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
-Filename: ./debians/com.lclrc.exacttime_2.0.3_iphoneos-arm64.deb
-Size: 93284
-MD5sum: abdafeb95d05ed4fb3fe3d6981a09dcd
-SHA1: a23910a0aa4bb5fd9506e9c713b6ee679b333576
-SHA256: 868986d12be6a0abc2b6fc743d7351da626e029df8945b253f1b0c76ea7dac66
-SHA512: ce6f0132c7bcb7a7b7d1bee5b383ea3d845c13b2fef4b68318f76ecab8ec2162863370f36e8124c9d8cf406bc06f6e2f1b291958e7df384ab9f26b356d5c0da6
-Description: 在通知、信息、电话、邮箱中显示准确时间。Shows the exact time of notifications, messages, calls and emails.
-Name: ExactTime - 给个准确时间，OK？
-Author: gilshahar7, SquidForce
-Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+Version: 2.4.2
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.2_iphoneos-arm64.deb
+Size: 2663612
+MD5sum: 8a51c93c4c631b37c9583f6276b53e2e
+SHA1: bc0e180bd7f8c3741493d9d4a203cda798cbb0a2
+SHA256: 6d344f35def355ed5baf26b584ced61663696777dbd915ddcded5ff17dbe833e
+SHA512: 588bbed5705d719b3f1d3453ec9001055ece4223ce52a837c1d6ef7b0e696c5f81694a464b18ca31bcee11f6d22f6eb121f9b00f0a809d7d68e64830786a7782
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.hammerit
-Architecture: iphoneos-arm64e
-Version: 1.4.3
-Section: Tweaks
-Maintainer: lclrc(SquidForce)
-Installed-Size: 2328
-Depends: mobilesubstrate, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./debians/com.lclrc.hammerit_1.4.3_iphoneos-arm64e.deb
-Size: 456558
-MD5sum: 944eea138394084b52d666ecad8e141d
-SHA1: 494db74a049d71f3b72e0f2780d994989f58db00
-SHA256: 8bdd0a5c6608f642228882d5a714ea93852a89239a57732962eb1260699acb37
-SHA512: 887d24a82f103958ba0f7e2aaf8b72a79bdf7d257681864c9cf9ef95a70111ce5a1aab8fc2759af8af7267ef31eb39d0c380e6e3a75353290812f35e281162c9
-Description: Control your text or translate as you wish.
-Name: Hammer It
-Author: lclrc(SquidForce)
-Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.4.4
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.4_iphoneos-arm.deb
+Size: 2578068
+MD5sum: dba01403b20b56503fe414fe91c3beab
+SHA1: 770da45e1573efcc8669133342f8cde6ad73398c
+SHA256: a23139afdf8da26ad2faec36fe4ba7bf15fb776157ee211cfd0854365362651c
+SHA512: 58510cfd16e1d3b0c9fa15bf479c999a7498af0e0f1e9510bfc015244c3a6eff2a78b672af1794f89f50d9d9a7595c27e7ea3f9c9d0d3d99781ff0b846260563
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.hammerit
-Architecture: iphoneos-arm64e
-Version: 1.4.5
-Section: Tweaks
-Maintainer: lclrc(SquidForce)
-Installed-Size: 2344
-Depends: mobilesubstrate, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./debians/com.lclrc.hammerit_1.4.5_iphoneos-arm64e.deb
-Size: 459816
-MD5sum: e0de2098f25f62ca3621e602ab8646d8
-SHA1: 0faaf615c81ad3aaed51498df803cfad09774944
-SHA256: abcddd491f396f8e1a4540891373ca113183b22d2a53702481279670828fc642
-SHA512: b093e7685d4abd260d428c2b8359cda5a027416dc85feef6b65e91f36b17c4c11cdc4064c2a38222b44835b6472cf7c4316fb56a5ebb69919b73a50dad583990
-Description: Control your text or translate as you wish.
-Name: Hammer It
-Author: lclrc(SquidForce)
-Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-
-Package: com.lclrc.hideiconlabels
+Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
-Version: 0.0.1
-Section: Tweaks
-Maintainer: SquidForce <lclrc.3@gmail.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debians/com.lclrc.hideiconlabels_0.0.1_iphoneos-arm64.deb
-Size: 2716
-MD5sum: fc2995327b0e1ecbd70b58fb33237153
-SHA1: 843c8532242a615f7f32bca3284cf3b02a8502d4
-SHA256: 69eb5457ac5238248f1cfc56ce8dad9ebc4b3a618eb4dacddacf3021be14fd00
-SHA512: 1fa17134f5da85793b41bb4cde59c34689ceb9494f6ebf42d83a1772e508e9758851868f88bd2d0e5dc943c2bfa48e47f00900feb964c5e9b56b99e77e15750e
-Description: Same as the title
-Name: HideIconLabels
-Author: SquidForce <lclrc.3@gmail.com>
+Version: 2.4.4
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.4_iphoneos-arm64.deb
+Size: 2581716
+MD5sum: 2ec9226674621abeabd1f7114dd1a8b3
+SHA1: ee2550f59c31695c70b5947e6bef3e2ca57af836
+SHA256: 83bfcb8bad1506335992e36eebae19c906b724e6b284ba38b0dd09b119f3b201
+SHA512: a9082c0c280df6d27a0f053b6b9d86aada43e6e041a2ee16c4f7e94749fe5f24e492c5b96173ea34927f6a8872a4f8f57ece355cf19cc0f7f574834b5b793eb5
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.hidepagedots
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.4.5
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.5_iphoneos-arm.deb
+Size: 2578632
+MD5sum: 7f8056c1be1eb5c29971feb6eaf1c99d
+SHA1: 202ab230edc99d6f56a322114c30874f4fa2e5ef
+SHA256: c7ce352e55833741e9d651b2940cb03925b5774ad1411a257b3305127b756e9b
+SHA512: 413d997a47d776ab3d113d7caa95fa55a3c2170f2e5a6a75ea7040c1527cc61367ab243fef53191f376d233a0bcada996f686c6672dcdd5fa786df93087e77bc
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
-Version: 0.0.1
-Section: Tweaks
-Maintainer: SquidForce <lclrc.3@gmail.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debians/com.lclrc.hidepagedots_0.0.1_iphoneos-arm64.deb
-Size: 2816
-MD5sum: 21c0a4ca2baa6e5ef95c720eb78315dc
-SHA1: fc9aa35945b3fde10bb20b3a234b65b85d68c49e
-SHA256: 1abf54b02bf13f7b2b0c7024742eaff0815f0f626b48f53623a2e8b9b6fc1500
-SHA512: 967168f0d3aa84b8a4f7567e005e701dc06171c99ed4eea00d1e11115406ee9ba0b2153d020671c0a6ef00c6bbb5ccbd8786d4a2b98dc8ca5e02eaa78034f42b
-Description: Same as the title
-Name: HidePageDots
-Author: SquidForce <lclrc.3@gmail.com>
+Version: 2.4.5
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.4.5_iphoneos-arm64.deb
+Size: 2582592
+MD5sum: 566485ac0a2f5e30950e61986e1ddc07
+SHA1: 8aa99b32bf08cae3edbaddb13731e239b68c1d50
+SHA256: c905f6214f711cd0aee84acc98cd63fcea8330f853dcaa43548dd4c14e3b2416
+SHA512: bc55892e91579b47f5747b5de367662abd8923693f37df19244de549c55ec5405a5cdfee78095ddac8932e02abcc7dfb5eeb87dbf682a3d2886de3128fca6562
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.hidepullover
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.4
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends:
+Filename: ./pool/org.coolstar.sileo_2.4_iphoneos-arm.deb
+Size: 2684840
+MD5sum: 1c2413b2257129be47fc632bbb6ef0f5
+SHA1: 2771ceeddbf799002a907c7a93d521e169e6866e
+SHA256: 15c6ddd174505010d29d9ab58a35ecbf00f353e4d769b0d1abb568e40be95cd8
+SHA512: 5fa8fe96f44e8b541c3b377ef1c4ce30051561cb0327bc1c81a419d64203c6229f0aa7424e8d02679e14226fbec5a5d7c9e66904157bcf26778b95bc8792fbda
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
-Version: 0.0.1
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/com.lclrc.hidepullover_0.0.1_iphoneos-arm64.deb
-Size: 4394
-MD5sum: de1a61c22b55221dbe011ee842280ad6
-SHA1: 6da7d4d2e6edf9fae0ec9ea65e8d23fb843e0bec
-SHA256: e815bacd310f1270a2c38fb79959955f53800d45ac8ae6f0cf5f6062be391bc3
-SHA512: 89d31867ad7946ab01f0e918299aa795d77764c7636d8360046ac5c78be5a007298ada899221e08c8dcc2ca5fbdf31ab14d5299b9e05a995059da2522df6fdb7
-Description: 1. 系统截屏时隐藏    2. 收起到最小时让它不那么显眼
-Name: HidePullOver 隐藏PullOver小把手
-Author: SquidForce
+Version: 2.4
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends:
+Filename: ./pool/org.coolstar.sileo_2.4_iphoneos-arm64.deb
+Size: 2687452
+MD5sum: 908576c1fef5b430f55647f53e1f053c
+SHA1: 368628e158ff78608145bea22a835686cee4ab5a
+SHA256: 34752bbf0eea04e0d1854289d0efd9bc0fee409d468b5a9af925747b47a5d625
+SHA512: 81c890a40bfcf61510ee127d0cbb53af0e658c91c9a59e6e25a2fe4c83b55b2ac3392a0e77e1475557a5c67c2390fbc81ba5b8a5e4f6e2794611a3bd35879645
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.mdaus.latchkey
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm
+Version: 2.5
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.5_iphoneos-arm.deb
+Size: 2891620
+MD5sum: dc81bf79416b4bc8812ca8041f2f8dc0
+SHA1: a0d675cdb363c1c30788ec6760e2ed4e1a7eb36e
+SHA256: afbbd9a6e598dfa3b8c8d199f0cc6286be9e34dd5a2cb4766339d4fe3159cd87
+SHA512: 15b2cb5dc8943e0e1e9d0cda0f6f0b0dd4014734448d9644754e7ca3568a6ca302c64a84e6c625953cc710c4565c419d7249ed251204e3e5db3f287a51efa59e
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
-Version: 2.3.1-1
-Section: Tweaks
-Maintainer: Maxwell Dausch & lclrc
-Installed-Size: 13476
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debians/com.lclrc.mdaus.latchkey_2.3.1-1_iphoneos-arm64.deb
-Size: 6450620
-MD5sum: 2a9dd1e720f406620774d8cb5d4be895
-SHA1: cbee7439f4375e8c438c8bff28b3ee3bc1408571
-SHA256: 683d427f2b2e572ebf9511312aab09ea2579ed3e4d75a34672378ea9ed9ca9c2
-SHA512: 6bc6cdf14c91e0b7b616174bfd8d192da695f053a3b6d73d4dd190cdb098e21d772315f533d005a3c0df191e18d5a2d497c1c173b9a6783b499ddca62fe8cf08
-Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)。Move and theme the Face-ID lock glyph
-Name: 锁头自定义 Latchkey
-Depiction: https://repo.daus.ch/depictions/?p=ch.mdaus.latchkey
-Author: Maxwell Dausch <max.dausch@gmail.com>
+Version: 2.5
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileo_2.5_iphoneos-arm64.deb
+Size: 2894788
+MD5sum: b774f1ae1f7081b32535dae6d235d2bc
+SHA1: 1f044b46fb27cde10403b84122e8820e8f95a718
+SHA256: 1b8fc661726bcd39b487caffc7a5661bb112ff9fad9de549bc8b97de93a3b0d4
+SHA512: b55d44f1aaa8454c4584eaca1f26d986e2f4793b39b212a89e00283d369b1c733c29ba1a49ba885ef18b8a3000735294648d447f1b165d9b63f97d21c86c6fd5
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.mdaus.latchkey
+Package: org.coolstar.sileonightly
+Architecture: iphoneos-arm
+Version: 2.4.1+20230414.1681498296.dee95af
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.1+20230414.1681498296.dee95af_iphoneos-arm.deb
+Size: 2661576
+MD5sum: e58e9ebc45697dc894aa0f48681767a2
+SHA1: c8480ddf49dd96fb18973797f4abbb32bdb32bdc
+SHA256: cd69e5df991938edc45c0452643d00758c7a2a1629ba97dedd3f4837e3810226
+SHA512: 3ac48375e76f68945cf7fa5356d27bf70980b2f03dcf23b51c9f4abbff15902adcb9b61f0a42a6c945dcaf90aebccc6b11b9b285beb784070cfa03a62c6295dc
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileonightly
 Architecture: iphoneos-arm64
-Version: 2.3.1
-Section: Tweaks
-Maintainer: Maxwell Dausch & lclrc
-Installed-Size: 13476
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debians/com.lclrc.mdaus.latchkey_2.3.1_iphoneos-arm64.deb
-Size: 6450464
-MD5sum: 3f568e09bbeed2833cab019646902e16
-SHA1: 412e136ea1573d6f8571dba20d075ab99c98b106
-SHA256: caed3b3290b4760332b947f30a71cd372dfac7c84c539708526b8b141ecf0338
-SHA512: 39f97cccac8f88772a163b010021fb0df6cc90972336654c24e9a257d1aaa1dc509e26093881dc56c38108c76fb2a2543b12f8fd9206f42ce82a3abbc188e1ac
-Description: 自定义锁头图标和位置。适配rootless，增加汉化。Move and theme the Face-ID lock glyph
-Name: 锁头自定义 Latchkey
-Depiction: https://repo.daus.ch/depictions/?p=ch.mdaus.latchkey
-Author: Maxwell Dausch <max.dausch@gmail.com>
+Version: 2.4.1+20230414.1681498296.dee95af
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.1+20230414.1681498296.dee95af_iphoneos-arm64.deb
+Size: 2664312
+MD5sum: bbd787694208b4dfcb2f7a59e884b8ba
+SHA1: eee0441fae87e76f89b23ab27d9a2e38f5e90856
+SHA256: b6c6b3318fe1689b80faf881ae4a311aaf818eecd6c97b166a1b0a2756d8395c
+SHA512: d4a7b74d2689ec4546e3a2478605efedbc1ea3ba4d47b5a3b3e10bec6fd53bbc63b8ee4dc39f106522365ab0ca57e2d69bb22cb157a9331c8d121bdf14a9b7e1
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.mdaus.latchkey
+Package: org.coolstar.sileonightly
+Architecture: iphoneos-arm
+Version: 2.4.2+20230414.1681512017.d090c48
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.2+20230414.1681512017.d090c48_iphoneos-arm.deb
+Size: 2660768
+MD5sum: 1f0ff0ac37cac772c46d563a6c336867
+SHA1: e56793a88f2936021ea9d9857f2901d11845082d
+SHA256: 87050e47690022a7ef56d4f5a91365b5a866670ff8344eb000a3a7d13b682bdc
+SHA512: 3f749017789c65bd7f1b6cb0100bba578ecd6f373275fe00947ea97aa810dc906d2db76ff6ce901612fc3ca1759d01226c7e91395541bb3dab0eb992be124b64
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileonightly
 Architecture: iphoneos-arm64
-Version: 2.3.2
-Section: Tweaks
-Maintainer: Maxwell Dausch & lclrc
-Installed-Size: 13476
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debians/com.lclrc.mdaus.latchkey_2.3.2_iphoneos-arm64.deb
-Size: 6450584
-MD5sum: b6be2a6973ded9e0ba3b70282eced674
-SHA1: 9f97c6cc155670f43623df08ab995f727be5079a
-SHA256: eb8bc341efbd7f42b7546357a80e18616083702fb82d19e1a8c83dc5d7c55e5b
-SHA512: bc610b18e6cddf932212e6db78e98bb1f4267494d4c4d3f98d637275a74b52825970e187cdea383d221b08d358c90a1bc6afb88c9732c18de3d9119ada4c8302
-Description: 自定义锁头图标和位置。适配多巴胺，增加汉化，需要libcolorpicker依赖(p2kdev源里有)。Move and theme the Face-ID lock glyph
-Name: 锁头自定义 Latchkey
-Depiction: https://repo.daus.ch/depictions/?p=ch.mdaus.latchkey
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.mdaus.latchkey/depiction.json
-Author: Maxwell Dausch <max.dausch@gmail.com>
+Version: 2.4.2+20230414.1681512017.d090c48
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.2+20230414.1681512017.d090c48_iphoneos-arm64.deb
+Size: 2664980
+MD5sum: 537b2d103e616fa49c6d17d24f471d92
+SHA1: f6bf011b1e1f66ddc9916d0d07f713fc164ecd80
+SHA256: b4b52807e0fe17f810dc0ba24ef78d88349de7929237fd1bfac36acdd266a4ca
+SHA512: c496620f164a13b49c4da747afdf3f7ae6ebffd6b949f29cd006dd5ab4ad69da8cf5d29dbf5665a972c8aabca029fe878cc5c4e1b132a312f274f4185ac4ec6c
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.recordanywhere
+Package: org.coolstar.sileonightly
+Architecture: iphoneos-arm
+Version: 2.4.4+20230416.1681674909.6914fdb
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.4+20230416.1681674909.6914fdb_iphoneos-arm.deb
+Size: 2578892
+MD5sum: 21c074348a5d0eb8f780c2031c4c8886
+SHA1: 6b862b7b59b00248b64384379b280e119b82a482
+SHA256: 701b88424d6072dd0bc90190b17389badda1fca014ad2fd2cf08d44f641afce0
+SHA512: 899b2146f12913822e8836266960f4d537ad18b951281dd47d08a120f460cd75bdc895fd066fe04e79b4fb1aecaf26c131956b909c0600d005413a024f792a9c
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.coolstar.sileonightly
 Architecture: iphoneos-arm64
-Version: 1.1.0
-Section: Tweaks
-Maintainer: Muirey03 & lclrc
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debians/com.lclrc.recordanywhere_1.1.0_iphoneos-arm64.deb
-Size: 4484
-MD5sum: 961117816b55319fb135641c10755bc4
-SHA1: 485aacebcb9e9cf0cf2551e54c8591bef76d028d
-SHA256: 3cbd9f39fc8e34f449e7ccc0365f445dd9b9935368e8ba85b87a131652ec0c81
-SHA512: bcdbb693554ed65321d9c85c2a33aef2a37a4306a2e2e4da88453322a5dccc6ff57ab61f0247f11cbfe5c751dc21c0bf171c5c8ca7969348a9ad0376c853300e
-Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
-Name: 锁屏录屏RecordAnywhere
-Author: Muirey03 & lclrc
+Version: 2.4.4+20230416.1681674909.6914fdb
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.4+20230416.1681674909.6914fdb_iphoneos-arm64.deb
+Size: 2581564
+MD5sum: e130977b478ff6b251700d0aeaf124a8
+SHA1: 68097e140511dc0a967577c46638a5d7e205a5de
+SHA256: 27b80b5f40d5ea820345409ebdd6a74b7e347e0d7e1eb9eb9f4c582e90cd5a83
+SHA512: 23902c205863a9f5fed9d485caa7d4c3a2349ba0c9246cb0e88536530348e7775d88c502373f6eecaded0f9d3920f71be97c9edf672194def0e215e6ac59a1cd
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lclrc.squidgesture
-Architecture: iphoneos-arm64e
-Version: 1.2.7
-Section: Tweaks
-Maintainer: lclrc(SquidForce)
-Installed-Size: 984
-Depends: mobilesubstrate, firmware (>= 14.0), com.opa334.altlist
-Filename: ./debians/com.lclrc.squidgesture_1.2.7_iphoneos-arm64e.deb
-Size: 184826
-MD5sum: 23bb84035c2097d1148c09aa9f0bb0f9
-SHA1: 9315c9b973e588b27faca96764c06cab201eb712
-SHA256: 99524d06638da64277534b46c3121e1736819bbf977f0d0a46afb0ebaa0b6574
-SHA512: e8ead80c43d40e5b3f5dd2b973e2573eaa2eaa298b108a16b12d8e3f9e0a6a16f297850d70aad91ca5e812b7337ea5ca53a87abbbbf30d0c4536264e09106de3
-Description: Gestures
-Name: SquidGesture
-Author: lclrc(SquidForce)
-Icon: file:///var/jb/Library/PreferenceBundles/SquidGesturePrefs.bundle/SquidGesture_icon@3x.png
+Package: org.coolstar.sileonightly
+Architecture: iphoneos-arm
+Version: 2.4.5+20230430.1682846735.fd39c3e
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.5+20230430.1682846735.fd39c3e_iphoneos-arm.deb
+Size: 2578432
+MD5sum: 4ba547b0d3954fe3ff454b3db1c9e370
+SHA1: b48b0951b35bb5eebd0c607e37c6e5f62259fbdf
+SHA256: 4bbba8eaae723cb7945c160c8af0d2e3598a840815c26e27753704607e814e16
+SHA512: a423f938742764491ebf5ca1383e32881a0195b9ce2b02dfcd90e94f9476c08bb1d7cb0d567d775f83afebc2c1fa4dce084fbf7f5a13cd065d13b0f262a7ed49
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.lns.pogr
+Package: org.coolstar.sileonightly
 Architecture: iphoneos-arm64
-Version: 0.2.3
-Section: Tweaks
-Maintainer: Ruphane
-Installed-Size: 288
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/com.lns.pogr_0.2.3_iphoneos-arm64.deb
-Size: 12046
-MD5sum: 1c4cd0dfdd69f717008cae2a6295b728
-SHA1: bcfc5355ee158f82393431021ed6959b4c3aa217
-SHA256: 6e91b93dddb885546bbfaa19aba5efcbe7b5444284bc92db25246be783b5bb7d
-SHA512: b5319872bcf0fc86b47e8b1260c95cb0c829fa9a419816c1bd088645cfc5de27eef4637b9aac6a51329e964ac2205761c43ff68931198f5a84b2483e6f7b4595
-Description: Treat AirPods Pro 2 correctly
-Name: PodsGrant
-Author: Ruphane
+Version: 2.4.5+20230430.1682846735.fd39c3e
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.4.5+20230430.1682846735.fd39c3e_iphoneos-arm64.deb
+Size: 2581740
+MD5sum: 610d2effa75b2997c3265093e7f2d3c1
+SHA1: 4b4bef2c52a192ddf0a1be8a8c8737bf9d1b2ac9
+SHA256: 8ba01e2381fff3b54faaa41b43f161448829b47eca16df2ab33fe50927ab2b0c
+SHA512: 2ea8d54066117743880f8892cb4c320f19657a71bdd762666486e31abfdd64ce129953130b2dc0f27c967956c41059bae20604a62a6b3efd027a2b45c805d25e
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.p2kdev.screenshotactions
-Architecture: iphoneos-arm64
-Version: 1.2
-Section: Tweaks
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 180
-Depends: firmware (>= 11.0), mobilesubstrate
-Filename: ./debians/com.p2kdev.screenshotactions_1.2_iphoneos-arm64.deb
-Size: 18968
-MD5sum: c3ba78eab772e3959c606611bc604f37
-SHA1: 6ace988698d9d2ab408f3ccd0ae0dff408820175
-SHA256: b72ea7202953a20abc37ad93d568107574234c661e9541197612e22689654c51
-SHA512: 9584101eac7259bad2e5b9c484b14b3c982ec2ba15cce76b865875c6d9f9c74aca2dec39ff70a058bddbc508fc186ebae91d9b04ff46c37b13fbda3005a5b540
-Description: Add Quick Actions to the screenshot preview!
-Name: ScreenshotActions
-Author: P2KDev <p2kdev@gmail.com>
-Icon: file:///Library/Application Support/ScreenshotActions/icon.png
+Package: org.coolstar.sileonightly
+Architecture: iphoneos-arm
+Version: 2.5+20230608.1686249632.eece58a
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.5+20230608.1686249632.eece58a_iphoneos-arm.deb
+Size: 2891824
+MD5sum: 3e915b0540511c214728b1bbfe4471b5
+SHA1: f0fe53e7bb6030398776876064438753d5a52f5e
+SHA256: 857e33789aa502f11cb9a8bc1c09b836a4e04c9aaf81d8dc254b2052a903fb43
+SHA512: ae38b31ac479d5acccdceee4a581066f1ec31220306d33ed993ac38e36ad4312e19ed18213dbdf24173f5d895faf266f58eb61d8df1924af8272f71bfefaa37a
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.tomaszpoliszuk.dockcontroller
+Package: org.coolstar.sileonightly
 Architecture: iphoneos-arm64
-Version: 1.6.2-1
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 436
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
-Filename: ./debians/com.tomaszpoliszuk.dockcontroller_1.6.2-1_iphoneos-arm64.deb
-Size: 60518
-MD5sum: ad8a228ae115e67c4e3e648c81de2227
-SHA1: fc3f7495524d7ee20ac4f03adcd450d3350383f0
-SHA256: dbb606fdd47508492d13dac43a4fc4a1fc8e07b7dc4ad97fa409b885fd87ca29
-SHA512: a2990bca38d45c6386ae57634c157f9bf40f57efc1eb501a4849d5947d19e59feeeeb14b1b3e4e5db9a31411e234911cc2f4bc92e9e00e1ed3c612b9642ecea5
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
-Description: Control Your Dock
-Tag: purpose::extension
-Name: Dock Controller
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockcontrollerDp
-Author: Tomasz Poliszuk
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: tomaszpoliszuk
-Icon: file:///var/jb/Library/PreferenceBundles/DockControllerSettings.bundle/icons/DockController@3x.png
-
-Package: com.tomaszpoliszuk.keyboardcontroller
-Architecture: iphoneos-arm64
-Version: 1.2.1-1
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 460
-Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Filename: ./debians/com.tomaszpoliszuk.keyboardcontroller_1.2.1-1_iphoneos-arm64.deb
-Size: 71158
-MD5sum: 845bf17e416635816ff87fa599c6634b
-SHA1: 44e060a1b8b863459a2f87f7f842071ca7351ba2
-SHA256: cebe75de7c03db1351c9d1fce6633dbc18dab2251c23a27d82c4ff7bd8bef806
-SHA512: 7db895c0870cf1ada9b447bee8dda0f693a205d20b74fddde44cf9f1bdf91b38aa317a20e1b205eccffe44ccfcda34c1fee509ed1809a3eb491a137ec0d1eefa
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=keyboardcontrollerDp
-Description: Control your Keyboard. 对键盘做一些自定义调整, 适配多巴胺。
-Tag: purpose::extension
-Name: Keyboard Controller
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=keyboardcontrollerDp
-Author: Tomasz Poliszuk
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: tomaszpoliszuk
-Icon: file:///Library/PreferenceBundles/KeyboardControllerPreferences.bundle/icons/KeyboardController@3x.png
-
-Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
-Architecture: iphoneos-arm64
-Version: 1.0.4
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 168
-Depends: firmware (>= 14.1), mobilesubstrate
-Filename: ./debians/com.tomaszpoliszuk.lockscreenbatterymagsafe_1.0.4_iphoneos-arm64.deb
-Size: 5312
-MD5sum: 64265b858a4bb96d29aef6e198190f57
-SHA1: aae8b5a1664b240ac5f10b94a9c4c56cdcb43503
-SHA256: b7d9b148ecddfae8e1cc0019f3150d016cc34315260c9851f9d48d4ac2fbc854
-SHA512: 09dc74bf58f25140bec95396c7fa0985d3f5b49f50222c158e6a864278b198bdf1699c17c28a1183eabbb4ee17953b3ccdf821784b5bcef2c36d15ff0be0241f
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lockscreenbatterymagsafeDp
-Description: 将设备连接到电源时，在锁定屏幕上启用原生MagSafe充电动画。Enable new native MagSafe charging view on lockscreen when connecting device to power source
-Tag: purpose::extension
-Name: 启用MagSafe充电动画
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lockscreenbatterymagsafeDp
-Author: Tomasz Poliszuk
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: tomaszpoliszuk
-
-Package: com.udevs.compactbatteryavocado
-Architecture: iphoneos-arm64
-Version: 2.0.6
-Section: Tweaks
-Maintainer: udevs
-Installed-Size: 492
-Depends: mobilesubstrate (>= 0.9.5000), firmware(>=14.0)
-Filename: ./debians/com.udevs.compactbatteryavocado_2.0.6_iphoneos-arm64.deb
-Size: 136138
-MD5sum: 5264251dde4c36cbd83536fcc0757554
-SHA1: 97804061949c6132af02912775802206c274768c
-SHA256: 1203e6a0b77e2b9b3a658ed178cdc1ad2b9dc702e24629d9ab1dc061c8da3126
-SHA512: c4e131a32786e1b6d6f4d84d25112ef3bcd4f5947e2c19a7ea0a3ba2dec74f877edb4c2d6492ee233349cd762e204359e6694325b44258a05e8bac6e38af9851
-Description: 在2x2的小组件上显示电量百分比。Show battery percentage on 2x2 battery widget.
-Name: 电池小组件显示百分比
-Author: udevs
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
-
-Package: com.udevs.vpnindicator
-Architecture: iphoneos-arm64
-Version: 1.1.6
-Section: Tweaks
-Maintainer: udevs, squidforce
-Installed-Size: 420
-Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
-Filename: ./debians/com.udevs.vpnindicator_1.1.6_iphoneos-arm64.deb
-Size: 63010
-MD5sum: 571cacff074966ac37ffc7c00ac1c4d4
-SHA1: 51d4a92d39e56e4337746b4eb219b4d5b3792133
-SHA256: fa2ee7006da7e824cc336f1e4c1c586c23b4e6a91060d993e543ac420d03c398
-SHA512: dce4f94288706b43018415f356b533dc067d06fa2d203ec4e3631fce7c7cf1e49fdf61c8906fb76507517dcd15d4e7e1a7f1d6ebe875cde7eadb0da3ac5991be
-Description: Indicates VPN state in status bar. 在状态栏的Wifi或蜂窝数据图标显示VPN状态。修复支持rootless
-Name: VPNIndicator
-Author: udevs
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vpnindicator/icon/icon.png
-
-Package: com.wilsonthewolf.timejump
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Section: Tweaks
-Maintainer: WilsontheWolf
-Installed-Size: 352
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: ./debians/com.wilsonthewolf.timejump_0.0.2_iphoneos-arm64.deb
-Size: 10934
-MD5sum: 7d38730c847f55a399a701d770febe0a
-SHA1: 9a330e969d6ed9a0b536d8f4bfe721d972b3fcb2
-SHA256: d94b70c641e8398333f8899377b1053c805b456ec7f90c38dfddd6544335b0d2
-SHA512: 90df6354dbbcfb2c786409bc741de00842b21774504e11b8f1cd5cdf3ab4c8dd8e2f2339b9278b7a76969304d7ef22600468ffe9188ffbffcf8d82d1d4d12b90
-Description: Set's your lockscreen clock ahead by a few minutes(customizable). This helps keep you on time. 设置锁屏时间比实际时间快几分钟，能有助于你平时能做到更守时（希望能）
-Name: TimeJump
-Author: WilsontheWolf
-Icon: file:///Library/PreferenceBundles/TimeJumpPrefs.bundle/Icon@3x.png
-
-Package: info.adolfoi.simplehome
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Tweaks
-Maintainer: Adolfoi_
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/info.adolfoi.simplehome_1.0.0_iphoneos-arm64.deb
-Size: 2756
-MD5sum: 1db6dddd8c7994e364605a0ff2c6dddf
-SHA1: cdb5f16f6e506efc8da62513ddde920c6612ea51
-SHA256: b5495fcc9ac870932f75e1e44fc6e113e7280973dc9aee6b5cd3e3ae58c1cbcd
-SHA512: 88ab9e215b17fc1e12cba2f6adb7bd38eaee2ddf06c775133126857d73086c22f3bd9c04b915955689f807a634275bdfdf94041a8284d900757780065b65bf58
-Description: Remove Today View and App Library View.
-Name: SimpleHome
-Author: Adolfoi_
-
-Package: jp.soh.freepip
-Architecture: iphoneos-arm64
-Version: 0.0.3-1
-Section: Tweaks
-Maintainer: Soh Satoh
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debians/jp.soh.freepip_0.0.3-1_iphoneos-arm64.deb
-Size: 6436
-MD5sum: b3ebc197d00de4d0efa18d44fb5ffeda
-SHA1: 261894f30792c470d74d7c23a52fa118a28f229b
-SHA256: b01e09e9ede05356513270940df126c77fcf3149a47b7061127e72a19b2729e8
-SHA512: f9a70bc76c708cf6447f139f4f636b40e3852dc6f3f0fd0a6db0815507409ef12d4c4152525db9ba471004b52a7364b85174bf6f992c4fceb237f7e6bc7316d3
-Description: FreePIP is a tweak to un-snap and scale the view of Picture-in-Picture on iOS unlimitedly. Long Press PIP window to enable freepip mode. 解锁画中画的限制，可以放在任意位置和调整到任意大小。长按画中画窗口进入 FreePIP 模式进行调整。v0.0.3-1更新：改为默认是正常模式，略微美化FreePIP模式。
-Name: FreePIP
-Author: Soh Satoh
-
-Package: org.thebigboss.libcolorpicker
-Architecture: iphoneos-arm64
-Version: 1.6.9
-Section: System
-Maintainer: Bailey Seymour
-Installed-Size: 392
-Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
-Depends: firmware (>= 6.0)
-Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
-Filename: ./debians/org.thebigboss.libcolorpicker_1.6.9_iphoneos-arm64.deb
-Size: 70930
-MD5sum: e00983f2e7bf87f5e0bc221c23787c5d
-SHA1: 6099739e676227e1a5761bda8e510f8da49ffff8
-SHA256: d906e6eb451e134b7c263d528264d700873dffa0c82744e5e699fe912373ebea
-SHA512: 3521e223b4c003e5fef626188009795878c2d3b7760a1b732ac213dca33a7517dbf543224e406031878e9a078c741350f324cc7ebf3b0e5560dc61856283402c
-Description: An awesome library of some sort!!
-Tag: role::developer
-Name: libcolorpicker
-Author: Bailey Seymour
+Version: 2.5+20230608.1686249632.eece58a
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: ./pool/org.coolstar.sileonightly_2.5+20230608.1686249632.eece58a_iphoneos-arm64.deb
+Size: 2895244
+MD5sum: 3842d9651fac9e9389862da0a2eb2b72
+SHA1: a2883fe5c8b416280b1da651fdaca0e6ad80d01d
+SHA256: 134ac93dcc677bd2935f98d4e159ea7ca5a60ba2976f0800ae104cfdf9ba9f6b
+SHA512: c7e0ec54f3bd8bc6fdfac72d4c96d1cd04ce4ed713546277051eabca8e48ee93854c85de4589afa6e0b984e83d5521497028f68e2e1e872b607a7cc553e9afb7
+Description: A modern APT package manager frontend
+Name: Sileo (Nightly Channel)
+Author: Amy While <me@anamy.gay>
+Icon: https://github.com/Sileo/Sileo/raw/stable/Icons/Nightly/Nightly_iOS.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
