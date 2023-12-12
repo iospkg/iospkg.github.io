@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: ios
 Components: main
-Date: Tue, 12 Dec 2023 13:20:41 +0000
-Description: Sileo for Checkra1n and Unc0ver
-Label: Sileo
-Origin: Sileo
+Date: Tue, 12 Dec 2023 16:30:12 +0000
+Description: iospkg self.
+Label: iospkg
+Origin: iospkg
 Suite: stable
-Version: 2.0
+Version: 1.0
 MD5Sum:
- 5a8a634cf61c1d536e35cd9095881147            29682 Packages
- 64404d4adf8aef42b04e9e6bea4ee723             7048 Packages.bz2
- 9609d493d2fa226ae60083f26e7490a7             6548 Packages.xz
- 70306710633e6ce30c5d68ec05a3c1df             6617 Packages.zst
- ce126ee82c2ca15706050ec57f25a2a8              211 Release
+ c1139414ebaea09cd72ca0ac098d7a44            28765 Packages
+ 70c42f40d1a57479d182d32b95d5caa1             6730 Packages.bz2
+ 5ddbde3f768d20e8dc42fb83219dec12             6204 Packages.xz
+ 72aeaa4c1810fc2e0b29f757f4e7511d             6260 Packages.zst
+ 058848c7514c5f33d04acaab78e8e6ea              194 Release
 SHA1:
- d42acc225e2d0193f5bf275b86b808fa860d773d            29682 Packages
- b236eccccdd947c988f61fb56b29fac054031084             7048 Packages.bz2
- 45ca985d4674d1059ebb74f2baeedb0f86dd9124             6548 Packages.xz
- 82b84889ac4a7789c044aa8f1858dae00a3f9cfb             6617 Packages.zst
- fcbfadd4273f7ec9cd9235997464978112c9f7f4              211 Release
+ 2a5aaa4f51c196bb7a646b6b97b75ddb20465a34            28765 Packages
+ dc6420edd23a645df1e776329cad25eeb192dd86             6730 Packages.bz2
+ 71b58ddfb3e33e5a9c9f4079ab3c89b85431f76c             6204 Packages.xz
+ 4e89cd4ea7e43f7399c4088c40e5c99ec56384d2             6260 Packages.zst
+ 0b5ea303a3aba11a1c2780f71a42713f92018ce9              194 Release
 SHA256:
- 27eaa8fa6d400bd33064f2ac90b4d4f09489f1469cb67f366cf35a52459b011a            29682 Packages
- 8df0188986b7c544ec368e1fb11e492af03e7d196bc002c1813128d0e43b31c7             7048 Packages.bz2
- 4041e5c933dc0bf35632b35d61a0ab9d2d0ac3faa334a9c2c7398733eadc2d49             6548 Packages.xz
- a5146678be9cc581dfc43ab0490b112952c0a119f0b5ef223fede5b00a72d401             6617 Packages.zst
- ebf71bc7cfff4ee581c8e788652d6bd9b0b62ca2be14ba1976ca05efa0362dbf              211 Release
+ 42b13aef7397971bfc67e086c1fc3791e07cdb072fcc3548fcb78f6ec98ed301            28765 Packages
+ 22340cd0ad8abcf518c08f3001ddd149bd85432a59c19f465f0dd00d8e4e649b             6730 Packages.bz2
+ a3a32f52666979541c720b417200fe72a7dc065685eb12e1b9edd4832275e5fc             6204 Packages.xz
+ 38d590fd005a5be7f00a71933b3fa43fd6ea507857afb213849bcf09973edf7b             6260 Packages.zst
+ 838d98ac56bb9d8affdecac021ee7f00c966574dbfde95c3acb54370bb2e6f2d              194 Release
 SHA512:
- 30e406dcf10dff2b9cbd9fb7c1a9e01c29fa483fc282e6260f285199659e793552f9c3f56043c807eeaac1d435e96d6e6bf3d731855b5c0a9cc0615ee330ee08            29682 Packages
- d55256e07bec63a2153fecbf35a054025b488ddcd9c02c29e61708c57900eee6b2cd5b90e9cc998b83b58d53100b442f7d1edba37e7fcf034bab39df2199acfb             7048 Packages.bz2
- 12c8f8664fb80e04ce9a126652ab91e74b7d4177c5a2d961e62db082eced3cc25904a15fc3e805e22a44ff946f1af074414f763b1516c4a329947259bb883bf5             6548 Packages.xz
- 31b2a092920776eaf64dc29d48cbf1c5e0c6babccaacbb7ed47cc33d36ad88918cb4d1d6b88fe523c8a9282f1ae584e0f84edb29f12697af568cac83a1bd5e93             6617 Packages.zst
- cdf849ee2b20893f00646b20610b9b2c06a795f4877760a13b055b2afa6c764d23d7cfb785f6beeb524321ba3ced8d2c37ac5a506ba18c3bc3960fd71c73149c              211 Release
+ 9306092890d39d381aae8cb1c4d92d07237fb712fa5bf556625376db2378cfc6a9eab479f8debb20d6ddf40ba17794f70d228b95d524da9221c9262dec6130f8            28765 Packages
+ 83a7516f768dc3b14da83db8d25f9d4c4ef54f2138a8e56e88acf53b7b3ce4eec262626afd39f315d4eeca00dd502f28828e9848a2aa69acf2f3cfe23756e1b1             6730 Packages.bz2
+ a9646355a9bc16ac3f290ca8808a3b2cec649d50e086b52fb32bd375ee142910405b647f3ab1bc391b7a752eb5e236018f9e6d17028bcf7938efdbea310346f9             6204 Packages.xz
+ 9e0fa9003ed6bbe06c06012be68aca7d7766a9dcc93d6438c700eda25c04b1d443f816b1333f7355e2146df43a8c1e76f530b12099f076cca4b3c9bd128133ae             6260 Packages.zst
+ c30ae301a8e31071b2b953fa9fa659990a0a4a478321c9f50849898a53ea99750c9f32bf8e786f3dd596055194d1e7faac2ebf4372ad2a236f8ff28f0d98fa10              194 Release

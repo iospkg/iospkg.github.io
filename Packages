@@ -5,7 +5,7 @@ Section: Libraries
 Maintainer: Aarnav Tale <aarnav@tale.me>
 Installed-Size: 1192
 Depends: lz4, lzma
-Filename: ./pool/libzstd1_1.5.0_iphoneos-arm.deb
+Filename: ./debians/libzstd1_1.5.0_iphoneos-arm.deb
 Size: 304812
 MD5sum: 341308b19358c4daa93f60a7ff2ba5a1
 SHA1: 77c2b36fb189361ccebbeb3207c98dfe14bf8cc1
@@ -25,7 +25,7 @@ Section: Archiving
 Maintainer: Amy While <me@anamy.gay>
 Installed-Size: 1032
 Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: ./pool/lz4_1.7.5-1_iphoneos-arm.deb
+Filename: ./debians/lz4_1.7.5-1_iphoneos-arm.deb
 Size: 81660
 MD5sum: d740f1157ab8ead985f3565620c746eb
 SHA1: d35fc9b50f9bce05ad3e0225976f1fe1060c5420
@@ -35,34 +35,13 @@ Homepage: http://tukaani.org/lzma/
 Description: Extremely Fast Compression algorithm
 Name: LZ4
 
-Package: me.jjolano.lowpowercharging
-Architecture: iphoneos-arm
-Version: 0.0.2
-Section: Tweaks
-Maintainer: jjolano <jjolano@me.com>
-Depends: firmware (>=9.0), mobilesubstrate
-Filename: ./pool/me.jjolano.lowpowercharging.deb
-Size: 8424
-MD5sum: d10dd80f99277bbf745d8bb1d9b5a421
-SHA1: 110700edb5b91680e7719349527ed766ba5efbb2
-SHA256: 2fc7585c421c660e9afeedaba1d5f5fe3b336156e2ebb8d73d8586b692699b36
-SHA512: 3401467eccb8f3b3ce796a24c334f05de27c8d8ea26b082016e74bb3cb6af1fb30c9905245fdd2671614691db2f590cb591171f90c6535e7f84aa8af12f2913d
-Homepage: https://shuga.co/
-Description: Enables Low Power Mode automatically when charging.
-Name: LowPowerCharging
-Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.lowpowercharging.html
-SileoDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.lowpowercharging.json
-ModernDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.lowpowercharging.json
-Icon: https://ios.jjolano.me/assets/me.jjolano.lowpowercharging/icon.png
-Author: jjolano <jjolano@me.com>
-
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.2.1
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.1_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2.1_iphoneos-arm.deb
 Size: 2198572
 MD5sum: 233bf16cf4ac47351c946c29cfa78230
 SHA1: 379b9b2d806e79638be6db315172a3a57c4cb016
@@ -80,7 +59,7 @@ Version: 2.2.2
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.2_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2.2_iphoneos-arm.deb
 Size: 2198724
 MD5sum: e7b6c93a18820f4efe880d758ed56e13
 SHA1: 1eb14dddb9aab6d4a3497c6ac294918789230abb
@@ -98,7 +77,7 @@ Version: 2.2.3
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2.3_iphoneos-arm.deb
 Size: 2199780
 MD5sum: 70a60e134dd1ca6e69913131e89c03df
 SHA1: ff18b87bb21da28929880504819e7737697c1129
@@ -116,7 +95,7 @@ Version: 2.2.4-1
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.4-1_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2.4-1_iphoneos-arm.deb
 Size: 2008584
 MD5sum: fa993ceea75b6891f5d02c73536e88e1
 SHA1: 3e3d5e29aab285f19c59dcdac2d500558918dd7b
@@ -134,7 +113,7 @@ Version: 2.2.4
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.4_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2.4_iphoneos-arm.deb
 Size: 2004692
 MD5sum: 0d3b86d1cacfa582878d3a95e5d0e853
 SHA1: 78b1f61c42b9afc705e81c5444f6fd4aaa9a520f
@@ -152,7 +131,7 @@ Version: 2.2.5
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.5_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2.5_iphoneos-arm.deb
 Size: 2013728
 MD5sum: 67fa3dce5d612a619ad945f47be737d3
 SHA1: e36ad1a374effadb081cb0e62aacb616b420e6fd
@@ -170,7 +149,7 @@ Version: 2.2.6
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2.6_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2.6_iphoneos-arm.deb
 Size: 2006476
 MD5sum: 9c6d562f5d3c097ce5450fad85cf9574
 SHA1: de402f69af4bbd255c4ee4a87a1d16188cfbe193
@@ -188,7 +167,7 @@ Version: 2.2
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.2_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.2_iphoneos-arm.deb
 Size: 2195316
 MD5sum: db5beedd68803f2a481d073cb5bcb2fb
 SHA1: b13dde5dcb1e86e7c7d902f71ae3eae1c8b500b1
@@ -206,7 +185,7 @@ Version: 2.3
 Section: Packaging
 Maintainer: Hayden Seay <me@diatr.us>
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.3_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.3_iphoneos-arm.deb
 Size: 1997556
 MD5sum: 8ec089704f0bd944d914ff044fef91a4
 SHA1: c3fc6093b43b37d41fd95bcfc7cb7852fc544870
@@ -224,7 +203,7 @@ Version: 2.4.1
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.1_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.4.1_iphoneos-arm.deb
 Size: 2661424
 MD5sum: 6fd538e913a6273698ba87e044e401b1
 SHA1: 45851467d34fe9da5674c8cd2ac0d99163cef1fb
@@ -242,7 +221,7 @@ Version: 2.4.1
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.1_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileo_2.4.1_iphoneos-arm64.deb
 Size: 2663928
 MD5sum: e0b8fa9d86d8a9c168e794fae0b276f7
 SHA1: 9a83dd2998e6eb90fdf48f99b4f5f4b1b0687bf5
@@ -260,7 +239,7 @@ Version: 2.4.2
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.2_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.4.2_iphoneos-arm.deb
 Size: 2660996
 MD5sum: 0543e9dfc2198c1161a7da57807d430f
 SHA1: 2f044373d714be8143cf5bdc9eee0bb18248526b
@@ -278,7 +257,7 @@ Version: 2.4.2
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.2_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileo_2.4.2_iphoneos-arm64.deb
 Size: 2663612
 MD5sum: 8a51c93c4c631b37c9583f6276b53e2e
 SHA1: bc0e180bd7f8c3741493d9d4a203cda798cbb0a2
@@ -296,7 +275,7 @@ Version: 2.4.4
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.4_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.4.4_iphoneos-arm.deb
 Size: 2578068
 MD5sum: dba01403b20b56503fe414fe91c3beab
 SHA1: 770da45e1573efcc8669133342f8cde6ad73398c
@@ -314,7 +293,7 @@ Version: 2.4.4
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.4_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileo_2.4.4_iphoneos-arm64.deb
 Size: 2581716
 MD5sum: 2ec9226674621abeabd1f7114dd1a8b3
 SHA1: ee2550f59c31695c70b5947e6bef3e2ca57af836
@@ -332,7 +311,7 @@ Version: 2.4.5
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.5_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.4.5_iphoneos-arm.deb
 Size: 2578632
 MD5sum: 7f8056c1be1eb5c29971feb6eaf1c99d
 SHA1: 202ab230edc99d6f56a322114c30874f4fa2e5ef
@@ -350,7 +329,7 @@ Version: 2.4.5
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.4.5_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileo_2.4.5_iphoneos-arm64.deb
 Size: 2582592
 MD5sum: 566485ac0a2f5e30950e61986e1ddc07
 SHA1: 8aa99b32bf08cae3edbaddb13731e239b68c1d50
@@ -368,7 +347,7 @@ Version: 2.4
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends:
-Filename: ./pool/org.coolstar.sileo_2.4_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.4_iphoneos-arm.deb
 Size: 2684840
 MD5sum: 1c2413b2257129be47fc632bbb6ef0f5
 SHA1: 2771ceeddbf799002a907c7a93d521e169e6866e
@@ -386,7 +365,7 @@ Version: 2.4
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends:
-Filename: ./pool/org.coolstar.sileo_2.4_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileo_2.4_iphoneos-arm64.deb
 Size: 2687452
 MD5sum: 908576c1fef5b430f55647f53e1f053c
 SHA1: 368628e158ff78608145bea22a835686cee4ab5a
@@ -404,7 +383,7 @@ Version: 2.5
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.5_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileo_2.5_iphoneos-arm.deb
 Size: 2891620
 MD5sum: dc81bf79416b4bc8812ca8041f2f8dc0
 SHA1: a0d675cdb363c1c30788ec6760e2ed4e1a7eb36e
@@ -422,7 +401,7 @@ Version: 2.5
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileo_2.5_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileo_2.5_iphoneos-arm64.deb
 Size: 2894788
 MD5sum: b774f1ae1f7081b32535dae6d235d2bc
 SHA1: 1f044b46fb27cde10403b84122e8820e8f95a718
@@ -440,7 +419,7 @@ Version: 2.4.1+20230414.1681498296.dee95af
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.1+20230414.1681498296.dee95af_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.1+20230414.1681498296.dee95af_iphoneos-arm.deb
 Size: 2661576
 MD5sum: e58e9ebc45697dc894aa0f48681767a2
 SHA1: c8480ddf49dd96fb18973797f4abbb32bdb32bdc
@@ -458,7 +437,7 @@ Version: 2.4.1+20230414.1681498296.dee95af
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.1+20230414.1681498296.dee95af_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.1+20230414.1681498296.dee95af_iphoneos-arm64.deb
 Size: 2664312
 MD5sum: bbd787694208b4dfcb2f7a59e884b8ba
 SHA1: eee0441fae87e76f89b23ab27d9a2e38f5e90856
@@ -476,7 +455,7 @@ Version: 2.4.2+20230414.1681512017.d090c48
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.2+20230414.1681512017.d090c48_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.2+20230414.1681512017.d090c48_iphoneos-arm.deb
 Size: 2660768
 MD5sum: 1f0ff0ac37cac772c46d563a6c336867
 SHA1: e56793a88f2936021ea9d9857f2901d11845082d
@@ -494,7 +473,7 @@ Version: 2.4.2+20230414.1681512017.d090c48
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.31-1), dpkg (>= 1.19.7-2), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.2+20230414.1681512017.d090c48_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.2+20230414.1681512017.d090c48_iphoneos-arm64.deb
 Size: 2664980
 MD5sum: 537b2d103e616fa49c6d17d24f471d92
 SHA1: f6bf011b1e1f66ddc9916d0d07f713fc164ecd80
@@ -512,7 +491,7 @@ Version: 2.4.4+20230416.1681674909.6914fdb
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.4+20230416.1681674909.6914fdb_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.4+20230416.1681674909.6914fdb_iphoneos-arm.deb
 Size: 2578892
 MD5sum: 21c074348a5d0eb8f780c2031c4c8886
 SHA1: 6b862b7b59b00248b64384379b280e119b82a482
@@ -530,7 +509,7 @@ Version: 2.4.4+20230416.1681674909.6914fdb
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.4+20230416.1681674909.6914fdb_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.4+20230416.1681674909.6914fdb_iphoneos-arm64.deb
 Size: 2581564
 MD5sum: e130977b478ff6b251700d0aeaf124a8
 SHA1: 68097e140511dc0a967577c46638a5d7e205a5de
@@ -548,7 +527,7 @@ Version: 2.4.5+20230430.1682846735.fd39c3e
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.5+20230430.1682846735.fd39c3e_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.5+20230430.1682846735.fd39c3e_iphoneos-arm.deb
 Size: 2578432
 MD5sum: 4ba547b0d3954fe3ff454b3db1c9e370
 SHA1: b48b0951b35bb5eebd0c607e37c6e5f62259fbdf
@@ -566,7 +545,7 @@ Version: 2.4.5+20230430.1682846735.fd39c3e
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.4.5+20230430.1682846735.fd39c3e_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileonightly_2.4.5+20230430.1682846735.fd39c3e_iphoneos-arm64.deb
 Size: 2581740
 MD5sum: 610d2effa75b2997c3265093e7f2d3c1
 SHA1: 4b4bef2c52a192ddf0a1be8a8c8737bf9d1b2ac9
@@ -584,7 +563,7 @@ Version: 2.5+20230608.1686249632.eece58a
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.5+20230608.1686249632.eece58a_iphoneos-arm.deb
+Filename: ./debians/org.coolstar.sileonightly_2.5+20230608.1686249632.eece58a_iphoneos-arm.deb
 Size: 2891824
 MD5sum: 3e915b0540511c214728b1bbfe4471b5
 SHA1: f0fe53e7bb6030398776876064438753d5a52f5e
@@ -602,7 +581,7 @@ Version: 2.5+20230608.1686249632.eece58a
 Section: Packaging
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./pool/org.coolstar.sileonightly_2.5+20230608.1686249632.eece58a_iphoneos-arm64.deb
+Filename: ./debians/org.coolstar.sileonightly_2.5+20230608.1686249632.eece58a_iphoneos-arm64.deb
 Size: 2895244
 MD5sum: 3842d9651fac9e9389862da0a2eb2b72
 SHA1: a2883fe5c8b416280b1da651fdaca0e6ad80d01d
