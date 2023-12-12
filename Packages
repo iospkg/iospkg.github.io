@@ -35,6 +35,27 @@ Homepage: http://tukaani.org/lzma/
 Description: Extremely Fast Compression algorithm
 Name: LZ4
 
+Package: me.jjolano.lowpowercharging
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: jjolano <jjolano@me.com>
+Depends: firmware (>=9.0), mobilesubstrate
+Filename: ./pool/me.jjolano.lowpowercharging.deb
+Size: 8424
+MD5sum: d10dd80f99277bbf745d8bb1d9b5a421
+SHA1: 110700edb5b91680e7719349527ed766ba5efbb2
+SHA256: 2fc7585c421c660e9afeedaba1d5f5fe3b336156e2ebb8d73d8586b692699b36
+SHA512: 3401467eccb8f3b3ce796a24c334f05de27c8d8ea26b082016e74bb3cb6af1fb30c9905245fdd2671614691db2f590cb591171f90c6535e7f84aa8af12f2913d
+Homepage: https://shuga.co/
+Description: Enables Low Power Mode automatically when charging.
+Name: LowPowerCharging
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.lowpowercharging.html
+SileoDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.lowpowercharging.json
+ModernDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.lowpowercharging.json
+Icon: https://ios.jjolano.me/assets/me.jjolano.lowpowercharging/icon.png
+Author: jjolano <jjolano@me.com>
+
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm
 Version: 2.2.1
