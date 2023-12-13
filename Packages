@@ -1,3 +1,26 @@
+Package: com.summer.LookinServer
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: 系统工具
+Maintainer:
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: test1
+Replaces: test2
+Filename: ./debians/com.summer.LookinServer_1.0_iphoneos-arm.deb
+Size: 12240
+MD5sum: 645d96106c0f1609ce64698a7c963248
+SHA1: e9c1bbfb960f2a064fc8b850d96b5d72c7b56a1c
+SHA256: eb4152af137950b6195a4fbd9d947d10949ed2c28b34fa9860b474b60ce73726
+SHA512: 8d00f8275c2a96909af51341ec56310c2285d1f7a128089be8d1c6f99ddb104a47ccc73294428d94428ed97724e2a07871e06610b53196aa2e968fc93feef629
+Homepage: https//:iospkg.cn
+Description: hello
+Name: LookinServer
+Author: cu
+dev: cu
+Depiction:
+Icon:
+
 Package: libzstd1
 Architecture: iphoneos-arm
 Version: 1.5.0
