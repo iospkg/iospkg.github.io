@@ -141,6 +141,30 @@ Depiction: https://iospkg.github.io/depictions/cydia/com.summer.LookinServer.htm
 Icon: https://iospkg.github.io/assets/icons/category/administration.PNG
 SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
+Package: com.summer.LookinServer
+Architecture: iphoneos-arm
+Version: 1.6
+Priority: optional
+Section: Utilities
+Maintainer:
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: test1
+Replaces: test2
+Filename: ./debians/com.summer.LookinServer_1.6_iphoneos-arm.deb
+Size: 12302
+MD5sum: 1a5bba28288d5fb438a54fabc80f63c2
+SHA1: c413ebea09951986cf2342fb06c2f75757ff1819
+SHA256: 10949585745404011725e3eb96b428109fab46b56c74c0ab08edc32b99ad5c6f
+SHA512: f64539d71da3b30953f1fafdc727f230fe2238d249c0530e1adb4ed8f96abc81f1933bc569d129db52aefe5394daf3864206187699bae9485ce70c3b6671e1f8
+Homepage: https://iospkg.cn
+Description: hello
+Name: LookinServer
+Author: cu
+dev: cu
+Depiction: https://iospkg.github.io/depictions/cyida/com.summer.LookinServer.html
+Icon: https://iospkg.github.io/assets/icons/category/administration.PNG
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: libzstd1
 Architecture: iphoneos-arm
 Version: 1.5.0
