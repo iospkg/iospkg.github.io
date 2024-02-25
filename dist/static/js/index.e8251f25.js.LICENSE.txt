@@ -1,0 +1,21 @@
+/*! ../node_modules/vue-loader/dist/exportHelper.js */
+
+/*! vue */
+
+/*! ./App.vue.js?vue&type=template&id=46afcb8e!=!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=template&id=46afcb8e */
+
+/*! ./App.vue.js?vue&type=script&lang=js!=!-!builtin:swc-loader??clonedRuleSet-2.use[0]!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=script&lang=js */
+
+/*! ./App.vue.js?vue&type=script&lang=js!=!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=script&lang=js */
+
+/*! ./App.vue.js?vue&type=template&id=46afcb8e!=!-!builtin:swc-loader??clonedRuleSet-2.use[0]!../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[12].use[0]!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=template&id=46afcb8e */
+
+/*! vue */
+
+/*! axios */
+
+/*! vant */
+
+/*! vant/lib/index.css */
+
+/*! ./App.vue */
