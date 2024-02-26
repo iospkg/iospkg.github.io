@@ -213,6 +213,30 @@ Depiction: https://chariz.com/get/powerapp
 Icon: https://iospkg.github.io/assets/icons/category/administration.PNG
 SileoDepiction: https://chariz.com/get/powerapp
 
+Package: com.summer.LookinServer
+Architecture: iphoneos-arm
+Version: 1.9
+Priority: optional
+Section: Utilities
+Maintainer:
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: test1
+Replaces: test2
+Filename: ./debians/com.summer.LookinServer_1.9_iphoneos-arm.deb
+Size: 12282
+MD5sum: 9f4d25cb7789cc1004a59f3de15421ca
+SHA1: db672ba0ec2112395eec641771aa03d7176238c3
+SHA256: d0a75ebd73b0d511699971b5567f4e040e515b73dd183ed7ff53ea02feced18a
+SHA512: bcf9ddc63c4d929718337d89242ed8d68226317009140e492cb70cf00b72bdaa4d98370b721532624d12503f5ddb22f2c8d76be619087b5dd8eeecca562d9664
+Homepage: https://iospkg.cn
+Description: hello
+Name: LookinServer
+Author: cu
+dev: cu
+Depiction: https://iospkg.cn/dist/?bid=com.summer.test
+Icon: https://iospkg.github.io/assets/icons/category/administration.PNG
+SileoDepiction: https://iospkg.cn/dist/?bid=com.summer.test
+
 Package: libzstd1
 Architecture: iphoneos-arm
 Version: 1.5.0
