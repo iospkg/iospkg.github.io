@@ -1,0 +1,39 @@
+/*! ../node_modules/vue-loader/dist/exportHelper.js */
+
+/*! ./App.vue.js?vue&type=script&lang=js!=!-!builtin:swc-loader??clonedRuleSet-2.use[0]!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=script&lang=js */
+
+/*! core-js/modules/web.url-search-params.delete.js */
+
+/*! ./App.vue.js?vue&type=template&id=1490da7c!=!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=template&id=1490da7c */
+
+/*! vue */
+
+/*! ./history.vue.css?vue&type=style&index=0&id=4e12f008&lang=css!=!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./history.vue?vue&type=style&index=0&id=4e12f008&lang=css */
+
+/*! ../node_modules/vue-loader/dist/exportHelper.js */
+
+/*! axios */
+
+/*! core-js/modules/web.url-search-params.size.js */
+
+/*! vue */
+
+/*! ./history.vue.js?vue&type=template&id=4e12f008!=!-!builtin:swc-loader??clonedRuleSet-2.use[0]!../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[12].use[0]!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./history.vue?vue&type=template&id=4e12f008 */
+
+/*! vant */
+
+/*! vant/lib/index.css */
+
+/*! ./history.vue.js?vue&type=template&id=4e12f008!=!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./history.vue?vue&type=template&id=4e12f008 */
+
+/*! ./history.vue */
+
+/*! core-js/modules/web.url-search-params.has.js */
+
+/*! vue */
+
+/*! ./App.vue.js?vue&type=template&id=1490da7c!=!-!builtin:swc-loader??clonedRuleSet-2.use[0]!../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[12].use[0]!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=template&id=1490da7c */
+
+/*! ./App.vue.js?vue&type=script&lang=js!=!../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./App.vue?vue&type=script&lang=js */
+
+/*! ./App.vue */
